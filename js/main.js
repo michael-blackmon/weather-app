@@ -31,7 +31,6 @@ async function getWeather(cityName) {
       `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}`
     );
     const data = await response.json();
-    console.log(data);
 
     //assign specific data to variables
     const nameRegion = data.location.name + ", " + data.location.region;
