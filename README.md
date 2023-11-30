@@ -1,2 +1,2 @@
 # weather-app
-Vanilla JS / HTML / CSS Weather Web App
+Simple vanilla JS / HTML / CSS Weather Web App
